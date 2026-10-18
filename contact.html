@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Grand Rapids Digital provides technology, digital and creative services for businesses in Grand Rapids and beyond.">
+  <title>Contact | Grand Rapids Digital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="contact">
+
+<header class="navbar">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html"><span>GR</span> DIGITAL</a>
+    <nav class="nav-links">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="services.html" data-nav="services">Services</a>
+      <a href="work.html" data-nav="work">Work</a>
+      <a href="about.html" data-nav="about">About</a>
+    </nav>
+    <div class="nav-contact">
+      <a href="mailto:jamesharjes78@gmail.com">jamesharjes78@gmail.com</a>
+      <a href="contact.html" class="nav-button">Start a Project ↗</a>
+    </div>
+    <button class="menu-toggle" type="button">MENU</button>
+  </div>
+</header>
+
+
+<main>
+<section class="contact-hero">
+<div class="container">
+  <div class="eyebrow mono"><i></i> Contact</div>
+  <h1>Have an idea?<br>Need some help?<br>Let's talk.</h1>
+  <div class="contact-grid">
+    <div class="contact-info reveal">
+      <div class="contact-row"><span class="mono">Email</span><a href="mailto:jamesharjes78@gmail.com">jamesharjes78@gmail.com</a></div>
+      <div class="contact-row"><span class="mono">Phone</span><a href="tel:+12317423900">(231) 742 3900</a></div>
+      <div class="contact-row"><span class="mono">Location</span><div>Grand Rapids, Michigan</div></div>
+      <div class="contact-row"><span class="mono">Projects</span><div>Technology, digital, creative or something in between.</div></div>
+    </div>
+    <form class="form reveal" id="projectForm">
+      <div class="form-field"><label for="name">Name</label><input id="name" name="name" required placeholder="Your name"></div>
+      <div class="form-field"><label for="email">Email</label><input id="email" name="email" type="email" required placeholder="you@example.com"></div>
+      <div class="form-field"><label for="service">What do you need?</label><select id="serviceSelect" name="service"><option value="Technology">Technology</option><option value="Digital">Digital</option><option value="Creative">Creative</option><option value="Not sure yet">Not sure yet</option></select></div>
+      <div class="form-field"><label for="budget">Budget</label><select id="budget" name="budget"><option value="Not sure yet">Not sure yet</option><option value="Under $500">Under $500</option><option value="$500 to $1,500">$500 to $1,500</option><option value="$1,500 to $3,000">$1,500 to $3,000</option><option value="$3,000+">$3,000+</option></select></div>
+      <div class="form-field"><label for="message">Tell me about it</label><textarea id="message" name="message" required placeholder="What are you trying to build, fix or improve?"></textarea></div>
+      <div class="form-submit"><button class="button" type="submit">Send Project Inquiry ↗</button><div id="formMessage" class="mono muted" style="margin-top:12px"></div></div>
+    </form>
+  </div>
+</div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">GR<span>D</span></div>
+        <div class="mono muted" style="margin-top:12px">Grand Rapids, Michigan</div>
+      </div>
+      <div class="footer-contact">
+        <a href="mailto:jamesharjes78@gmail.com">jamesharjes78@gmail.com</a>
+        <a href="tel:+12317423900">(231) 742 3900</a>
+        <a href="contact.html" class="muted">Start a project ↗</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="mono">Technology / Digital / Creative</span>
+      <button id="terminalTrigger" type="button">GRD / CLI</button>
+      <span class="mono">© 2026 Grand Rapids Digital</span>
+    </div>
+  </div>
+</footer>
+<div class="terminal-overlay" id="terminalOverlay">
+  <div class="terminal-window">
+    <div class="terminal-bar"><span>GR DIGITAL / SYSTEM</span><button id="closeTerminal">CLOSE</button></div>
+    <div class="terminal-body">
+      <div><span class="blue">james@grd</span>:~$ whoami</div>
+      <div>Grand Rapids Digital</div>
+      <br>
+      <div><span class="blue">james@grd</span>:~$ focus</div>
+      <div>Technology. Digital. Creative.</div>
+      <br>
+      <div><span class="blue">james@grd</span>:~$ status</div>
+      <div>Available for projects.</div>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script></body></html>
